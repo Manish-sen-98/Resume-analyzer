@@ -11,6 +11,7 @@ class ResumeData(BaseModel):
     summary: Optional[str] = None  
     ats: int
     job_role: str
+    pdf_url: str
 
     class Config:
         from_attributes = True
